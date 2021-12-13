@@ -3,15 +3,18 @@ import { Link } from "react-router-dom"
 
 function NavBar() {
     return(
-        <div>
+        <div className="NavBarContainer">
             <Link to="/">
-                <h1>Courtney Cash</h1>
+                <h3>Courtney Cash</h3>
             </Link>
             <Link to="/projects">
-                <h1>Projects</h1>
+                <h3>Projects</h3>
+            </Link>
+            <Link to="featured">
+                <h3>Featured</h3>
             </Link>
             <Link to="/contact">
-                <h1>Contact Me</h1>
+                <h3>Contact Me</h3>
             </Link>
 
         </div>
