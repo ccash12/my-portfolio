@@ -18,6 +18,7 @@ function ContactMe() {
 
     return(
         <div> 
+            <h3>Contact Me</h3>
             <form onSubmit={sendEmail}> 
                 <input
                     type="text" 
