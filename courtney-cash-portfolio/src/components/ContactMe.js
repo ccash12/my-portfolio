@@ -1,8 +1,12 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
+import { useState } from 'react'
 
 function ContactMe() {
-    
+    const [name,setName] = useState("")
+    const [email,setEmail] = useState("")
+    const [subject,setSubject] = useState("")
+    const [message,setMessage] = useState("")    
     function sendEmail(e) {
         e.preventDefault();
 
@@ -35,10 +39,14 @@ function ContactMe() {
                     name="subject"
                     placeholder="Subject"
                 />
-                <input
+                <textarea
                     type="text"
-                    name="Your Message"
-                    placeholder="Your Message"
+                    name="message"
+                    placeholder="Your Message" >
+                </textarea>
+                <input
+                    type='submit'
+                    value="Send Message"
                 />
             </form>
         </div>
