@@ -1,23 +1,20 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import { useState } from 'react'
 
-function ContactMe() {
-    const [name,setName] = useState("")
-    const [email,setEmail] = useState("")
-    const [subject,setSubject] = useState("")
-    const [message,setMessage] = useState("")    
-    function sendEmail(e) {
+
+function ContactMe() {  
+    
+    const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('gmail', 'template_rkkxzrw', e.target, 'user_vlPzjlDuOayKajM3ZxmBk')
+    
+        emailjs.sendForm('service_guy505c', 'template_rkkxzrw', e.target, 'user_vlPzjlDuOayKajM3ZxmBk')
             .then((result) => {
-            console.log(result.text);
+                console.log(result.text);
             }, (error) => {
-            console.log(error.text);
+                console.log(error.text);
             });
-        e.target.reset()
-    }
+            e.target.reset()
+        };
 
 
     return(
@@ -42,7 +39,7 @@ function ContactMe() {
                 <textarea
                     type="text"
                     name="message"
-                    placeholder="Your Message" >
+                    placeholder="Your Message">
                 </textarea>
                 <input
                     type='submit'
