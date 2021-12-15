@@ -9,7 +9,7 @@ function NavBar() {
                     <h3>Courtney Cash</h3>
                 </Link>
             </div>
-            <div classname="NavBarLinks">
+            <div className="NavBarLinks">
                 <Link to="/projects">
                     <h3>Projects</h3>
                 </Link>

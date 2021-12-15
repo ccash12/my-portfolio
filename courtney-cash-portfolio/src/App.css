@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.NavBarContainer {
+  position: relative;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: blue
+}
+
+.NavBarTitle {
+  display: flex;
+  width:35%;
+  height: 100%;
+  background-color: pink
+}
+
+.NavBarLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  height: 100%;
+  width: 65%;
+  font-size: 15px;
+  justify-content: flex-end;
+  background-color: orange;
+}
+
+
+
+a{
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+}
+a:hover{
+  text-decoration: underline;
 }
