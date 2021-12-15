@@ -2,7 +2,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1")
+  background-color: white;
 }
 
 .App-logo {
@@ -45,7 +45,7 @@
   display:flex;
   flex-direction: row;
   align-items: center;
-  background-color: black;
+  background-color: #bdd7d8;
 }
 
 .NavBarTitle {
@@ -65,7 +65,7 @@
 }
 
 a{
-  color: white;
+  color: black;
   text-decoration: none;
   display: block;
   font-size: 20px;
@@ -74,3 +74,7 @@ a:hover{
   text-decoration: underline;
 }
 
+.AboutMeContainer{
+  text-align: center;
+
+}

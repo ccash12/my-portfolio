@@ -6,7 +6,7 @@ import { Switch, Route} from 'react-router-dom';
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Projects from './components/Projects'
-import Featured from './components/Featured'
+import AboutMe from './components/AboutMe'
 import ContactMe from './components/ContactMe'
 
 function App() {
@@ -17,11 +17,11 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
+        <Route path="/aboutme">
+          <AboutMe />
+        </Route>
         <Route path="/projects">
           <Projects />
-        </Route>
-        <Route path="/featured">
-          <Featured />
         </Route>
         <Route path="/contact">
           <ContactMe />
