@@ -18,9 +18,12 @@ function ContactMe() {
 
 
     return(
-        <div> 
+        <div className="formbox"> 
+            <div className="FormBoxTitle">
             <h3>Contact Me</h3>
+            </div>
             <form onSubmit={sendEmail}> 
+            <div className='FormInput'>
                 <input
                     type="text" 
                     name='name'
@@ -41,10 +44,13 @@ function ContactMe() {
                     name="message"
                     placeholder="Your Message">
                 </textarea>
-                <input
-                    type='submit'
+                <button type='submit'>
+                    Send Message
+                </button>
+                    {/* type='submit'
                     value="Send Message"
-                />
+                /> */}
+                </div>
             </form>
         </div>
     )
