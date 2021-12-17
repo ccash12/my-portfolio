@@ -1,4 +1,3 @@
-
 function Projects() {
     return(
         <div className='ProjectsContainer'> 
@@ -8,17 +7,23 @@ function Projects() {
             <div className="CooksLink">
                 <a href="https://a-couple-of-cooks.herokuapp.com/">A Couple of Cooks</a>
             </div>
+            <div className="CooksBio">
+                <p>This is an interactive website that allows you to browse recipes that other users have added and add ones yourself! </p>
+            </div>
             <br />
             <br />
             <br />
             <br />
             <div className="FoodshipifyImage">
-                <img src="https://cdn-icons-png.flaticon.com/512/135/135763.png" alt="foodshipify"/>
+                <img src="https://cdn-icons-png.flaticon.com/512/135/135763.png"  alt="foodshipify"/>
             </div>
             <div className="FoodshipifyLink">
                 <a href="https://foodshipify.herokuapp.com/">FoodShipify</a>
             </div>
-            <h1>Ambient Art Gallery </h1>
+            <div className="FoodshipifyBio">
+                <p>This application allows you to browse groceries that you need and have them delivered straight to your door! </p>
+            </div>
+            {/* <h1>Ambient Art Gallery </h1> */}
 
         </div>
     )

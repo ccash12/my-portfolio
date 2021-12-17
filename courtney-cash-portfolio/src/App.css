@@ -52,6 +52,7 @@
   display: flex;
   width:35%;
   height: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .NavBarLinks {
@@ -62,6 +63,7 @@
   width: 65%;
   font-size: 15px;
   justify-content: flex-end;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a{
@@ -81,6 +83,8 @@ a:hover{
   text-align: center;
   top: 50%;
   width: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20pt;
 }
 
 .CooksImage,
@@ -94,6 +98,14 @@ a:hover{
 .CooksLink,
 .FoodshipifyLink{
   text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30pt;
+}
+
+.CooksBio,
+.FoodshipifyBio{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .formbox {
@@ -105,10 +117,11 @@ a:hover{
 
 .FormBoxTitle{
   text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input[type=text]{
-
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   width:100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -127,6 +140,7 @@ textarea[type=text]{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 button {
@@ -139,4 +153,5 @@ button {
   font-weight:600;
   border-radius:5px;
   width:100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
